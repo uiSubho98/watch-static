@@ -1,0 +1,48 @@
+.footer{
+    background-color: orange;
+    height: fit-content;
+    padding: 3rem;
+
+}
+
+
+.footer-content{
+    width: 40%;
+}
+.footer-content img{
+    width: fit-content;
+    height: 85px;
+}
+.link{
+    height: 100px!important;
+    margin-top: 3px;
+}
+.insta{
+    margin-top: -8px;
+}
+.footer-content img:hover{
+    filter: grayscale(1);
+}
+.company-name{
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 992px){
+    .footer{
+        margin-top: -50px;
+    }
+    .footer-content{
+        width: 100%;
+        padding: 0;
+        /* background: red; */
+    }
+    .footer-content img{
+        width: fit-content;
+        height: 55px;
+    }
+    .link{
+        height: 69px!important;
+        margin-top: 3px;
+    }
+}
+
